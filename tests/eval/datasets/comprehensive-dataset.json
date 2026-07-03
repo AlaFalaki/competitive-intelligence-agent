@@ -1,0 +1,46 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "google_profile",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Profile Google"}]
+      }
+    },
+    {
+      "eval_case_id": "microsoft_profile",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Profile Microsoft"}]
+      }
+    },
+    {
+      "eval_case_id": "apple_profile",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Profile Apple and find their primary competitor pricing plans."}]
+      }
+    },
+    {
+      "eval_case_id": "netflix_competitors",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Generate a competitive report for Netflix focusing on streaming services pricing and news."}]
+      }
+    },
+    {
+      "eval_case_id": "tesla_financials",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Profile Tesla and extract their SEC 10-K filings metrics for the last two fiscal years."}]
+      }
+    },
+    {
+      "eval_case_id": "nvidia_benchmark",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Conduct an in-depth competitive intelligence benchmark of NVIDIA against AMD and Intel, reviewing latest news and gross margins."}]
+      }
+    }
+  ]
+}
